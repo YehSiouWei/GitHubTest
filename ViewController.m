@@ -20,7 +20,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     [self branchFunction];
-    NSString *str = [NSString stringWithFormat:@"GitHubTestBranch"];
+    NSString *str = [NSString stringWithFormat:@"GitHubTestMaster"];
     NSLog(@"str=%@",str);
 
 }
