@@ -19,7 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-
+    [self branchFunction];
     NSString *str = [NSString stringWithFormat:@"GitHubTestBranch"];
     NSLog(@"str=%@",str);
 
@@ -34,6 +34,9 @@
     string = @"branchFunction";
     NSLog(@"%@",string);
 }
-
+-(void)branchFunction2{
+    string = @"branchFunction2";
+    NSLog(@"%@",string);
+}
 
 @end
