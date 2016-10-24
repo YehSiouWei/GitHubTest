@@ -8,8 +8,10 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
+@interface ViewController (){
+    NSString *string;
 
+}
 @end
 
 @implementation ViewController
@@ -17,14 +19,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    NSString *master=[NSString stringWithFormat:@"masterClass"];
-    NSLog(@"%@",master);
+
+    NSString *str = [NSString stringWithFormat:@"GitHubTestBranch"];
+    NSLog(@"str=%@",str);
+
 }
 
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+-(void)branchFunction{
+    string = @"branchFunction";
+    NSLog(@"%@",string);
 }
 
 
